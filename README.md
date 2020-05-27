@@ -1,7 +1,13 @@
 # Data-Structures-and-Algorithms [IN PROGRESS ...]
 Data Structures and Algorithms are implemented in C, C++, Python and Java
 
-
+# Installations
+### Java
+Linux Environment
+```
+sudo apt install default-jre
+sudo apt install default-jdk
+```
 # To-do
 ### Data Structures
 * linked list
