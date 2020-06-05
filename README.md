@@ -10,20 +10,17 @@ sudo apt install default-jdk
 ```
 # To-do
 ### Data Structures
-* linked list
+* Linked list
 * Doubly linked list
 * Stack
 * Queue
 * Hash table
 * Heap
-* priority queue
-* tree
-  * Binary tree
+* Tree
   * Binary Search tree
   * AVL tree
   * Segment tree
   * Fenwick tree
-  * Red-Black tree
 * Trie
 * Graph
   * Directed Graph

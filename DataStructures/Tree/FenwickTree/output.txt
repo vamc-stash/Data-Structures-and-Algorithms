@@ -1,0 +1,7 @@
+sum in the range (0, 9) is 45
+sum in the range (4, 7) is 26
+sum in the range (9, 9) is 0
+sum in the range (2, 6) is 25
+sum in the range (2, 6) is 31
+sum in the range (9, 9) is 13
+sum in the range (0, 9) is 75

@@ -1,0 +1,195 @@
+
+<sdtio.h>
+	- Standard Input/Output functions
+
+	1. printf()	 - This function is used to print the character, string, float, integer, octal and hexadecimal values onto the output screen
+	2. scanf()	 - This function is used to read a character, string, numeric data from keyboard.
+	3. getc()	 - It reads character from file
+	4. gets()	 - It reads line from keyboard
+	5. getchar() - It reads character from keyboard
+	6. puts()	 - It writes line to o/p screen
+	7. putchar() - It writes a character to screen
+	8. clearerr()-This function clears the error indicators
+	9. fopen()	 - All file handling functions are defined in stdio.h header file
+	10.fclose() - closes an opened file
+	11.getw()    - reads an integer from file
+	12.putw()	 - writes an integer to file
+	13.fgetc()	 - reads a character from file
+	14.putc()	 - writes a character to file
+	15.fputc()	 - writes a character to file
+	16.fgets()	 - reads string from a file, one line at a time
+	17.fputs()	 - writes string to a file
+	18.feof()	 - finds end of file
+	19.fgetchar - reads a character from keyboard
+	20.fgetc()	 - reads a character from file
+	21.fprintf()-writes formatted data to a file
+	22.fscanf() - reads formatted data from a file
+	23.fgetchar - reads a character from keyboard
+	24.fputchar - writes a character from keyboard
+	25.fseek()	 - moves file pointer position to given location
+	26.SEEK_SET	 - moves file pointer position to the beginning of the file
+	27.SEEK_CUR	 - moves file pointer position to given location
+	28.SEEK_END	 - moves file pointer position to the end of file.
+	29.ftell()	 - gives current position of file pointer
+	30.rewind()	 - moves file pointer position to the beginning of the file
+	31.putc()	 - writes a character to file
+	32.sprint()	 - writes formatted output to string
+	33.sscanf()	 - Reads formatted input from a string
+	34.remove()	 - deletes a file
+	35.fflush()	 - flushes a file
+
+<stdlib.h>
+	- Standard Utility functions4
+
+	1. malloc()  - This function is used to allocate space in memory during the execution of the program.
+	2. calloc()  - This function is also like malloc () function. But calloc () initializes the allocated memory to zero.  But, malloc() doesn’t.
+	3. realloc() - This function modifies the allocated memory size by malloc () and calloc () functions to new size
+	4. free()	 - This function frees the allocated memory by malloc (), calloc (), realloc () functions and returns the memory to the system.
+	5. abs()	 - This function returns the absolute value of an integer . The absolute value of a number is always positive.   Only integer values are supported in C.
+	6. div()	 - This function performs division operation
+	7. abort()	 - It terminates the C program
+	8. exit()	 - This function terminates the program and does not return any value
+	9. system()	 - This function is used to execute commands outside the C program.
+	10.atoi()	 - Converts string to int
+	11.atol()	 - Converts string to long
+	12.atof()	 - Converts string to float
+	13.strtod()	 - Converts string to double
+	14.strtol()	 - Converts string to long
+	15.getenv()	 - This function gets the current value of the environment variable
+	16.setenv()	 - This function sets the value for environment variable
+	17.putenv()	 - This function modifies the value for environment variable
+	18.perror()	 - This function displays most recent error that happened during library function call.
+	19.rand()	 - This function returns the random integer numbers
+	20.delay()	 - This function Suspends the execution of the program for particular time
+	
+
+<conio.h>
+	1. clrscr()	 - This function is used to clear the output screen.
+	2. getch()	 - It reads character from keyboard
+	3. getche()	 - It reads character from keyboard and echoes to o/p screen
+	4. textcolor() - This function is used to change the text color
+	5. textbackground() - This function is used to change text background
+
+
+<string.h>
+	- String handling functions
+
+	1. strcat()	 - Concatenates str2 at the end of str1
+	2. strncat() - Appends a portion of string to another
+	3. strcpy()	 - Copies str2 into str1
+	4. strncpy() - Copies given number of characters of one string to another
+	5. strlen()	 - Gives the length of str1
+	6. strcmp()	 - Returns 0 if str1 is same as str2. Returns <0 if strl < str2. Returns >0 if str1 > str2
+	7. strcmpi() - Same as strcmp() function. But, this function negotiates case.  “A” and “a” are treated as same.
+	8. strchr()	 - Returns pointer to first occurrence of char in str1
+	9. strrchr() - last occurrence of given character in a string is found
+	10.strstr()	 - Returns pointer to first occurrence of str2 in str1
+	11.strrstr() - Returns pointer to last occurrence of str2 in str1
+	12.strdup()	 - Duplicates the string
+	13.strlwr()	 - Converts string to lowercase
+	14.strupr()	 - Converts string to uppercase
+	15.strrev()	 - Reverses the given string
+	16.strset()	 - Sets all character in a string to given character
+	17.strnset() - It sets the portion of characters in a string to given character
+	18.strtok()	 - Tokenizing given string using delimiter
+	19.memchr()	 - It is used to locate the first occurrence of the character in the specified string
+	20.memicmp() - It is used to compare specified number of characters from two buffers  regardless of the case of the characters
+	21.memset()	 - It is used to initialize a specified number of bytes to null or any other value in the buffer
+	22.memcpy()	 - It is used to copy a specified number of bytes from one memory to another
+	23.memmove() - It is used to copy a specified number of bytes from one memory to another or to overlap on same memory.
+	24.memcmp()	 - It is used to compare specified number of characters from two buffers
+	
+	
+<math.h>
+	- Mathematics functions
+	
+	1. floor()	 - This function returns the nearest integer which is less than or equal to the argument passed to this function.
+	2. round()	 - This function returns the nearest integer value of the float/double/long double argument passed to this function. If decimal value is from “.1 to .5”, it returns integer value less than the argument. If decimal value is from “.6 to .9”, it returns the integer value greater than the argument.
+	3. ceil()	 - This function returns nearest integer value which is greater than or equal to the argument passed to this function.
+	4. sin()	 - This function is used to calculate sine value.
+	5. cos()	 - This function is used to calculate cosine.
+	6. cosh()	 - This function is used to calculate hyperbolic cosine.
+	7. exp()	 - This function is used to calculate the exponential “e” to the xth power.
+	8. tan()	 - This function is used to calculate tangent.
+	9. tanh()	 - This function is used to calculate hyperbolic tangent.
+	10.sinh()	 - This function is used to calculate hyperbolic sine.
+	11.log()	 - This function is used to calculates natural logarithm.
+	12.log10()	 - This function is used to calculates base 10 logarithm.
+	13.sqrt()	 - This function is used to find square root of the argument passed to this function.
+	14.pow()	 - This is used to find the power of the given number.
+	15.trunc()	 - This function truncates the decimal value from floating point value and returns integer value.
+
+
+
+<time.h>	
+	- Date time functions
+
+	1. setdate()  - This function used to modify the system date
+	2. getdate()  - This function is used to get the CPU time
+	3. clock()	  - This function is used to get current system time
+	4. time()	  - This function is used to get current system time as structure
+	5. difftime() - This function is used to get the difference between two given times
+	6. strftime() - This function is used to modify the actual time format
+	7. mktime()	  - This function interprets tm structure as calendar time
+	8. localtime()- This function shares the tm structure that contains date and time informations
+	9. gmtime()	  - This function shares the tm structure that contains date and time informations
+	10.ctime()	  - This function is used to return string that contains date and time informations
+	11.asctime()  - Tm structure contents are interpreted by this function as calendar time. This time is converted into string.
+
+
+<ctype.h>	
+	- Character type functions
+
+	1. isalpha()   - checks whether character is alphabetic
+	2. isdigit()   - checks whether character is digit
+	3. isalnum()   - Checks whether character is alphanumeric
+	4. isspace()   - Checks whether character is space
+	5. islower()   - Checks whether character is lower case
+	6. isupper()   - Checks whether character is upper case
+	7. isxdigit()  - Checks whether character is hexadecimal
+	8. iscntrl()   - Checks whether character is a control character
+	9. isprint()   - Checks whether character is a printable character
+	10.ispunct()   - Checks whether character is a punctuation
+	11.isgraph()   - Checks whether character is a graphical character
+	12.tolower()   - Checks whether character is alphabetic & converts to lower case
+	13.toupper()   - Checks whether character is alphabetic & converts to upper case
+
+
+<assert.h>	
+	- Program assertion functions
+
+	1. assert()	   - This function gets an integer as paramenter. If this paramenter is 0, writes message
+    to stderr. Then, terminates the program. If this paramenter is non 0, it does nothing.
+
+
+<locale.h>	
+	- Localization functions
+
+	1. setlocale()	- It sets locale()
+	2. localeconv()	- It gets locale conventions
+
+<erno.h>
+	
+	1. errno()	    - This function sets errno value to 0 at the beginning of the program. This value is modified to other than 0 when an error occurs while any function call.
+
+
+<setjmp.h>	
+	- Jump functions
+
+	1. setjmp()	   - This function prepares to use longjmp() function
+	2. longjmp()   - It is used for non local Jump
+
+
+<signal.h>	
+	- Signal handling functions
+
+	1. signal()	  - It is used to install signal handler
+    2. raise()	  - It is used to raise signal in a C program
+
+
+<stdarg.h>	
+	- Variable arguments handling functions
+
+	1. va_start()  - This function indicates the start process of variable length argument list in a program
+    2. va_arg()	   - This function is used to fetch the arguments from variable length argument list
+    3. va_end()	   - This function indicates the end process of variable length argument list in a program

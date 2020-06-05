@@ -1,0 +1,12 @@
+insertion at tail
+5 --> 3 --> 4 --> 1 --> 2 --> null
+insertion at head
+2 --> 1 --> 4 --> 3 --> 5 --> null
+5 is found.
+After deletion of node 2
+5 --> 3 --> 4 --> 1 --> null
+Reversing list
+1 --> 4 --> 3 --> 5 --> null
+5 3 4 1 
+Sorted List
+1 --> 3 --> 4 --> 5 --> null

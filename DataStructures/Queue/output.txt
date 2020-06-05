@@ -1,0 +1,5 @@
+5
+31
+31
+62
+stack is Empty, cant retrieve top() : 403

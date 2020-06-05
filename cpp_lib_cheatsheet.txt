@@ -1,0 +1,98 @@
+
+https://en.cppreference.com/w/cpp/header
+
+<iostream>
+
+	- Contains function prototypes for the C++ standard input and standard output functions. This header file replaces header file <iostream.h>.
+
+<iomanip>
+
+	- Contains function prototypes for stream manipulators that format streams of data. This header file replaces header file <iomanip.h>.
+
+<cmath>
+
+	- Contains function prototypes for math library functions. This header file replaces header file <math.h>.
+
+<cstdlib>
+
+	- Contains function prototypes for conversions of numbers to text, text to numbers, memory allocation, random numbers and various other utility functions. This header file replaces header file <stdlib.h>.
+
+<ctime>
+	
+	- Contains function prototypes and types for manipulating the time and date. This header file replaces header file <time.h>.
+
+<cctype>
+
+	- Contains function prototypes for functions that test characters for certain properties (such as whether the character is a digit or a punctuation), and function prototypes for functions that can be used to convert lowercase letters to uppercase letters and vice versa. This header file replaces header file <ctype.h>
+
+<cstring>
+
+	- Contains function prototypes for C-style string-processing functions. This header file replaces header file <string.h>.
+
+<cstdio>
+
+	- Contains function prototypes for the C-style standard input/output library functions and information used by them. This header file replaces header file <stdio.h>.
+
+<fstream>
+
+	- Contains function prototypes for functions that perform input from files on disk and output to files on disk. This header file replaces header file <fstream.h>.
+
+<climits>
+
+	- Contains the integral size limits of the system. This header file replaces header file <limits.h>.
+
+<cassert>
+
+	- Contains macros for adding diagnostics that aid program debugging. This replaces header file <assert.h> from pre-standard C++.
+
+<cfloat>
+
+	- Contains the floating-point size limits of the system. This header file replaces header file <float.h>.
+
+<string>
+
+	- Contains the definition of class string from the C++ Standard Library
+
+<vector>, <list>, <deque>, <queue>, <stack>, <map>, <set>, <bitset>
+
+	- These header files contain classes that implement the C++ Standard Library containers. Containers store data during a program's execution.
+
+<typeinfo>
+
+	- Contains classes for runtime type identification (determining data types at execution time).
+
+<exception>, <stdexcept>
+
+	- These header files contain classes that are used for exception handling.
+
+<memory>
+
+	- Contains classes and functions used by the C++ Standard Library to allocate memory to the C++ Standard Library containers.
+
+<sstream>
+
+	- Contains function prototypes for functions that perform input from strings in memory and output to strings in memory.
+
+<functional>
+
+	- Contains classes and functions used by C++ Standard Library algorithms.
+
+<iterator>
+
+	- Contains classes for accessing data in the C++ Standard Library containers.
+
+<algorithm>
+
+	- Contains functions for manipulating data in C++ Standard Library containers.
+
+<locale>
+
+	- Contains classes and functions normally used by stream processing to process data in the natural form for different languages (e.g., monetary formats, sorting strings, character presentation, etc.).
+
+<limits>
+
+	- Contains classes for defining the numerical data type limits on each computer platform.
+
+<utility>
+
+	- Contains classes and functions that are used by many C++ Standard Library header files.

@@ -1,0 +1,9 @@
+5
+5 4 2 31 
+4
+4 2 31 
+62
+62 4 31 2 
+31 2 
+2
+empty heap: could not retreive priority element:  403

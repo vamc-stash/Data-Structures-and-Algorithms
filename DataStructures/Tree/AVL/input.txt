@@ -1,0 +1,12 @@
+10
+1 2 3 4 5 7 6 9 8 0
+preorder
+search 1
+search 5
+search 11
+delete 0
+delete 8
+search 8
+preorder
+delete 6
+preorder

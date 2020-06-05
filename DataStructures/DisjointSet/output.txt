@@ -1,0 +1,4 @@
+0 ,  3  belongs to same set.
+1 ,  4  belongs to different sets.
+4 ,  6  belongs to same set.
+1 ,  8  belongs to different sets.

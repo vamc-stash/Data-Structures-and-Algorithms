@@ -1,0 +1,19 @@
+insert 5
+insert 31
+insert 2
+insert 4
+peek
+display
+dequeue
+peek
+display
+insert 62
+peek
+display
+dequeue
+dequeue
+display
+dequeue
+peek
+dequeue
+peek

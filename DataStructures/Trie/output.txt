@@ -1,0 +1,15 @@
+hell  is found.
+helll  is not found.
+hello  is not found.
+helloworld  is found.
+world  is found.
+well  is not found.
+hell  is found.
+welldone  is found.
+welldone  is not found.
+wellbeing  is found.
+h  is not found.
+welldone  is not found.
+hello  is not found.
+wellbeing  is not found.
+well  is not found.

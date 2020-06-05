@@ -1,0 +1,4 @@
+1. static keyword utility ?
+2. What if I write static public void instead of public static void in Java? Will that make any difference?
+3. final keyword ? 
+4. Does parameters in methods are passed by Reference or by Value in java?

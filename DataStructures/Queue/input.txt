@@ -1,0 +1,15 @@
+enqueue 5
+enqueue 31
+enqueue 2
+enqueue 4
+peek
+dequeue
+peek
+enqueue 62
+peek
+dequeue
+dequeue
+dequeue
+peek
+dequeue
+peek
